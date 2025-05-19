@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* Box2 */
+
+.nav-address{
+    height: 50px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-first{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+.add-second{
+    margin-left: 3px;
+}
+
+/* Box3 */
+
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+}
+.search-icon{
+    background-color: orange;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px ;
+
+}
+
+.search-select{
+    width: 50px;
+    background-color: #e6e6e6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    color: rgb(79, 79, 79);
+    border: none;
+}
+.search-input{
+    flex-grow: 1;
+    border: none; 
+}
+
+/* Box4 */
+
+.language{
+    display: flex;
+}
+.language-logo{
+    width: 20px;
+    height: 16px;
+    background-image: url("icons8-usa-flag-48.png");
+    background-size: cover;
+}
+.language p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.language select{
+    width: 15;
+    background-color: transparent;
+    color: white;
+    border: none;   
+}
+.language-l{
+    display: flex;
+    margin-top: 2px;
+}
+
+/* Box5 */
+
+.accounts p{
+    font-size: 12px;
+}
+
+.accounts-list{
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+}
+.accounts-list select{
+    width: 15;
+    background-color: transparent;
+    color: white;
+    border: none;   
+}
+
+/* Box6 */
+
+.returns{
+    font-size: 12px;
+}
+.orders-bold{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Box7 */
+.cart{
+    display: flex;
+}
+
+.cart p{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.cart i{
+    font-size: 30px;
+}
+
+/* Nav2 */
+
+.nav2{
+    display: flex;
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav2-mid a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+}
+.nav2-mid{
+    width: 90%;
+    margin-right: 30px;
+}
+.nav2-font{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* hero */
+
+.hero-section{
+    height: 300px;
+    background-image: url("hero_img.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content:center ;
+    align-items: end;
+}
+
+.hero-msg{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 97%;
+    margin-bottom: 30px;
+}
+.hero-msg a{
+    text-decoration: none;
+    color: #2162a1;
+}
+
+/* content */
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.image-item {
+  text-align: center;
+}
+
+.image-item img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  
+}
+
+.image-item p {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #333;
+}
+
+.see-more {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 550;
+  color: #007185;
+  text-decoration: none;
+  align-self: flex-start;
+}
+
+.see-more:hover {
+  text-decoration: underline;
+}
+
+

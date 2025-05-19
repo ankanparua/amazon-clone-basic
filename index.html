@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Styles for image titles */
+      .image-item p {
+        text-align: center;
+        margin-top: 6px;
+        font-size: 14px;
+      }
+      /* Additional for Get Your Game On box with single image */
+      .box.get-your-game-on .images {
+        display: block;
+        text-align: center;
+      }
+      .box.get-your-game-on .image-item {
+        display: inline-block;
+        width: 100%;
+      }
+      .box.get-your-game-on .image-item img {
+        width: 300px;
+        max-width: 100%;
+        height: auto;
+        
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="address-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>   
+                <input type="text" placeholder="Search Amazon" class="search-input" /> 
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            
+            <div class="language border">
+                <div class="language-logo"></div>
+                <div class="language-l">
+                    <p>EN</p>
+                    <select></select>
+                </div>
+                
+            </div>
+
+            <div class="accounts border">
+                <p>Hello, sign in</p>
+                <div class="accounts-list">
+                    <p>Account & Lists</p>
+                    <select></select>
+                </div>
+            </div>
+            
+            <div class="orders border">
+                <p class="returns">Returns</p>
+                <p class="orders-bold">& Orders</p>
+            </div>
+
+            <div class="cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>Cart</p>
+            </div>
+        </div>
+
+        <div class="nav2">
+            <div class="nav2-left">
+                <i class="fa-solid fa-bars"></i>
+                <a class="nav2-font" href="#">All</a>
+            </div>
+            <div class="nav2-mid">
+                <a href="#">Today's Deals</a>
+                <a href="#">Registry</a>
+                <a href="#"> Prime Video</a>
+                <a href="#">Gift Cards</a>
+                <a href="#">Customer Service</a>
+                <a href="#">Sell</a>
+            </div>
+
+        </div>
+            
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-msg"><p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#">Click here to go to amazon.in</a> </p></div>
+    </div>
+
+    <div class="content-grid">
+      <div class="box">
+        <h2>Gaming Accessories</h2>
+        <div class="images">
+          <div class="image-item">
+            <img src="headset.jpg" alt="" />
+            <p>Headsets</p>
+          </div>
+          <div class="image-item">
+            <img src="keyboards.jpg" alt="" />
+            <p>Keyboards</p>
+          </div>
+          <div class="image-item">
+            <img src="computerMice.jpg" alt="" />
+            <p>Computer Mice</p>
+          </div>
+          <div class="image-item">
+            <img src="chair.jpg" alt="" />
+            <p>Chairs</p>
+          </div>
+        </div>
+        <a href="#" class="see-more">See more</a>
+      </div>
+
+      <div class="box">
+        <h2>Shop Deals in Fashion</h2>
+        <div class="images">
+          <div class="image-item">
+            <img src="bottoms.jpg" alt="" />
+            <p>Jeans under $50</p>
+          </div>
+          <div class="image-item">
+            <img src="teex.jpg" alt="" />
+            <p>Tops under $25</p>
+          </div>
+          <div class="image-item">
+            <img src="dress.jpg" alt="" />
+            <p>Dresses under $30</p>
+          </div>
+          <div class="image-item">
+            <img src="shoes.jpg" alt="" />
+            <p>Shoes under $50</p>
+          </div>
+        </div>
+        <a href="#" class="see-more">See all deals</a>
+      </div>
+
+      <div class="box">
+        <h2>Home Essentials</h2>
+        <div class="images">
+          <div class="image-item">
+            <img src="cleaning.jpg" alt="" />
+            <p>Cleaning Tools</p>
+          </div>
+          <div class="image-item">
+            <img src="homestorage.jpg" alt="" />
+            <p>Home Storage</p>
+          </div>
+          <div class="image-item">
+            <img src="home decor.jpg" alt="" />
+            <p>Home Decor</p>
+          </div>
+          <div class="image-item">
+            <img src="bedding.jpg" alt="" />
+            <p>Bedding</p>
+          </div>
+        </div>
+        <a href="#" class="see-more">Discover more in Home</a>
+      </div>
+
+      <div class="box get-your-game-on">
+        <h2>Get Your Game On</h2>
+        <div class="images">
+          <div class="image-item">
+            <img src="console.jpg" alt="" />
+            
+          </div>
+        </div>
+        <a href="#" class="see-more">See more</a>
+      </div>
+
+      <div class="box">
+        <h2>Kitchen Appliances</h2>
+        <div class="images kitchen-grid" style="display:grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: auto auto; gap: 10px;">
+          <div class="image-item" style="grid-column: 1 / span 3;">
+            <img src="cooker.jpg" alt="" style="width: 100%;" />
+            <p>Cooker</p>
+          </div>
+          <div class="image-item">
+            <img src="coffee.jpg" alt="" style="width: 100%;" />
+            <p>Coffee</p>
+          </div>
+          <div class="image-item">
+            <img src="pots.jpg" alt="" style="width: 100%;" />
+            <p>Pots and...</p>
+          </div>
+          <div class="image-item">
+            <img src="kettle.jpg" alt="" style="width: 100%;" />
+            <p>Kettles</p>
+          </div>
+        </div>
+        <a href="#" class="see-more">Explore all products in Kitchen</a>
+      </div>
+
+      <div class="box">
+        <h2>Home Arrivals Under $50</h2>
+        <div class="images">
+          <div class="image-item">
+            <img src="home flip.jpg" alt="" />
+            <p>Kitchen & Dining</p>
+          </div>
+          <div class="image-item">
+            <img src="can.jpg" alt="" />
+            <p>Home Improvement</p>
+          </div>
+          <div class="image-item">
+            <img src="decor.jpg" alt="" />
+            <p>Decor</p>
+          </div>
+          <div class="image-item">
+            <img src="pillow.jpg" alt="" />
+            <p>Bedding & Bath</p>
+          </div>
+        </div>
+        <a href="#" class="see-more">Shop the latest from Home</a>
+      </div>
+
+      <div class="box get-your-game-on">
+        <h2>Gifts for dad under $25</h2>
+        <div class="images">
+          <div class="image-item">
+            <img src="dad.jpg" alt="" />
+            <p></p>
+          </div>
+        </div>
+        <a href="#" class="see-more">See more</a>
+      </div>
+
+      <div class="box">
+        <h2>Refresh Your Space</h2>
+        <div class="images">
+          <div class="image-item">
+            <img src="dining.jpg" alt="" />
+            <p>Dining</p>
+          </div>
+          <div class="image-item">
+            <img src="home.jpg" alt="" />
+            <p>Home</p>
+          </div>
+          <div class="image-item">
+            <img src="kitchen.jpg" alt="" />
+            <p>Kitchen</p>
+          </div>
+          <div class="image-item">
+            <img src="health and beauty.jpg" alt="" />
+            <p>Health & Beauty</p>
+          </div>
+        </div>
+        <a href="#" class="see-more">See more</a>
+      </div>
+    </div>
+</body>
+</html>
